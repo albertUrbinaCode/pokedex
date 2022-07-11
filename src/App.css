@@ -1,0 +1,120 @@
+/*----Home-----*/
+.home{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_principal{
+    display: flex;
+    margin-bottom: 20px;
+}
+.img{
+    width: 200px;
+    height: 300px;
+}
+.img img{
+    width: inherit;
+    height: inherit;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome > h1{
+    margin-bottom: 10px;
+    color: rgb(38, 0, 255);
+}
+.welcome > h2, p{
+    margin-bottom: 10px;
+    color:rgb(48, 46, 46);
+}
+.welcome p{
+    font-size: 20px;
+}
+.inputHome input{
+    width: 280px;
+    height: 25px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.inputHome button{
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    background-color: rgb(38, 0, 255);
+    color: white;
+    cursor: pointer;
+}
+.inputHome button:hover{
+    background-color: lightslategray;
+}
+
+/*----POKEDEX-----*/
+.card-container {
+    max-width: 1120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.pokedexScreen{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-name{
+    margin: 40px 0;
+    text-align: center;
+}
+.title-name > h1{
+    margin-bottom: 20px;
+    color: rgb(38, 0, 255);
+}
+.title-name > h2, p{
+    margin-bottom: 10px;
+    color:rgb(48, 46, 46);
+}
+.title-name p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.searchPokemon input{
+    width: 300px;
+    height: 25px;
+    outline: none;
+}
+.searchPokemon select{
+    width: 130px;
+    height: 25px;
+    text-align: center;
+}
+/**********Pokemon Card btn page*************/
+
+.btn-pages{
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .btn-pages button{
+    margin: 0 .5rem;
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 50%);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-pages > button i{
+   font-size: 30px;
+  
+  }
